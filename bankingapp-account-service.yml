@@ -3,10 +3,10 @@ spring:
     name: bankingapp-account-service
   kafka:
     bootstrap-servers: localhost:9092
-  datasource:
-    url: jdbc:postgresql://localhost:5432/bankingapp-account-service
-    username: postgres
-    password: postgres
+  # datasource:
+  #   url: jdbc:postgresql://localhost:5432/bankingapp-account-service
+  #   username: postgres
+  #   password: postgres
   jpa:
     hibernate:
       ddl-auto: update
